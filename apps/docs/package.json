@@ -1,0 +1,35 @@
+{
+  "name": "docs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "echo \"Next - DOCS tests\""
+  },
+  "dependencies": {
+    "@AccentureVFInnovation/helperfunction": "^1.0.1",
+    "bootstrap": "^5.2.3",
+    "lodash": "^4.17.21",
+    "mathshared": "*",
+    "nanoid": "^4.0.0",
+    "next": "13.0.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.6.0",
+    "react-dom": "^18.2.0",
+    "ui": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@types/lodash": "^4.14.190",
+    "@types/node": "^17.0.12",
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "eslint": "7.32.0",
+    "eslint-config-custom": "*",
+    "tsconfig": "*",
+    "typescript": "^4.5.3"
+  }
+}
